@@ -3,7 +3,7 @@
 // Select the form elements
 const form = document.querySelector('form'); // Busca el primer form de la pàgina
 const input = document.querySelector('input'); //Busca el primer input de la web
-const result = document.createElement('p'); // to show the result
+const result = document.createElement('p'); // Crea pàrraf en memòria
 form.appendChild(result);
 
 // Function to track container
