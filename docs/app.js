@@ -9,7 +9,7 @@ const resultContainer = document.querySelector('#result-container'); //Agafa el 
 function trackContainer(containerNumber) {
     // Simple validation
     if (!containerNumber) {
-        return "Entra un número de contenidor";
+        return "Entra un número de contenidor.";
     }
 
     // Fake tracking response (you can later replace this with API call)
