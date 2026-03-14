@@ -6,8 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
 // Select the form elements
 const form = document.querySelector('form'); // Busca el primer form de la pàgina
 const input = document.querySelector('input'); //Busca el primer input de la web
-const result = document.createElement('p'); // Crea pàrraf en memòria
-form.appendChild(result);
+const resultContainer = document.querySelector('#result-container');
 
 // Function to track container
 function trackContainer(containerNumber) {
@@ -26,6 +25,5 @@ form.addEventListener('submit', function(event) {
 
     const containerNumber = input.value.trim();
     const message = trackContainer(containerNumber);
-
-    result.textContent = message; // show the message on the page
+    resultContainer.innerHTML = `<p>${message}</p>`; // appears under <hr>
 });
