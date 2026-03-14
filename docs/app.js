@@ -1,8 +1,5 @@
 // app.js
 
-// Wait until the DOM is fully loaded
-window.addEventListener('DOMContentLoaded', () => {
-
 // Select the form elements
 const form = document.querySelector('form'); // Busca el primer form de la pàgina
 const input = document.querySelector('input'); //Busca el primer input de la web
